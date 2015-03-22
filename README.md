@@ -12,6 +12,7 @@ This project starts embedded LDAP server and loads sample data into it:
 
 It is possbile to use data from file:
 - /EmbeddedLdap/src/main/resources/import.ldif
+
 However, in this case it is necessary to update ldap.propeties accordingly:
 - sample.ldap.base=dc=jayway,dc=se
 replace with
